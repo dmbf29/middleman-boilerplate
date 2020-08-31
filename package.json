@@ -1,0 +1,36 @@
+{
+  "name": "middleman-webpack",
+  "version": "1.0.0",
+  "description": "Middleman 4 + Webpack",
+  "repository": "https://github.com/tomrutgers/middleman-webpack",
+  "author": "Tom Rutgers <trutgers01@hotmail.com>",
+  "license": "MIT",
+  "browserslist": ">0.25%, not ie 11, not op_mini all, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^4.2.0",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.1.3",
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended-scss": "^4.1.0",
+    "stylelint-scss": "^3.18.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
+    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "core-js": "^3.6.4",
+    "terser-webpack-plugin": "^3.0.8"
+  }
+}
