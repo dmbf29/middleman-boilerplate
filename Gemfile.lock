@@ -66,6 +66,8 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.2.0)
     ffi (1.13.1)
+    font-awesome-sass (5.13.0)
+      sassc (>= 1.11)
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
@@ -202,6 +204,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   cucumber
+  font-awesome-sass (~> 5.13.0)
   middleman
   middleman-autoprefixer
   middleman-gh-pages
