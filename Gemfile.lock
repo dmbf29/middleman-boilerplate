@@ -114,6 +114,10 @@ GEM
       servolux
       tilt (~> 2.0.9)
       uglifier (~> 3.0)
+    middleman-gh-pages (0.4.1)
+      rake (> 0.9.3)
+    middleman-metaman (0.1.9)
+      middleman-core (>= 4.2.1)
     middleware (0.1.0)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
@@ -200,10 +204,12 @@ DEPENDENCIES
   cucumber
   middleman
   middleman-autoprefixer
+  middleman-gh-pages
+  middleman-metaman
   rake
   rspec
   rubocop
   selenium-webdriver
 
 BUNDLED WITH
-   2.0.1
+   2.0.2
