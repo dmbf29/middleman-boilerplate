@@ -23,6 +23,7 @@ brew install yarn
 ```
 Then:
 ```
+gem install middleman
 bundle install
 yarn install
 ```
