@@ -21,7 +21,7 @@ A simple way to build static pages with a Rails feel.
 gem install bundler
 brew install yarn
 ```
-
+Then:
 ```
 bundle install
 yarn install
