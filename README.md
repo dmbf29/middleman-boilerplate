@@ -13,7 +13,7 @@ A simple way to build static pages with a Rails feel.
 2. Move into the directory `cd NAME_OF_YOUR_PROJECT`
 2. Remove template git `rm -rf .git`
 3. Start a new git repo `git init`
-4. Create repo on Github `hub create`
+4. Create repo on Github `gh repo create`
 
 ### Installation
 *Only if you don't have bundler or yarn*
@@ -32,15 +32,17 @@ yarn install
 - `middleman`
 
 ## Deploy
-1. `rake publish`
-2. Go to your Github repository > settings > github pages (Options) and select your build branch
-3. Website is deployed !
+1. [Sign into Netlify](https://www.netlify.com/)
+2. Add new site from Git
+3. Choose repository and branch
+4. Website is deployed!
+5. (Add purchased domain)
 
 ## Meta Tags
 To use the gem `middlman-metaman`, [follow these setup instructions](https://github.com/cacheventures/middleman-metaman/)
 
 ## Preinstalled
-- Bootstrap CSS
+- Bootstrap CSS & JS
 - Font Awesome CDN
 - Webpack
 
