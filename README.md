@@ -45,7 +45,7 @@ yarn install
 To use the gem `middlman-metaman`, [follow these setup instructions](https://github.com/cacheventures/middleman-metaman/)
 
 ## Preinstalled
-- Bootstrap CSS & JS
+- [Bootstrap 4.6 CSS & JS](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 - Font Awesome CDN
 - Webpack
 
