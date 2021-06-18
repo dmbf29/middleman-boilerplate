@@ -30,7 +30,7 @@ yarn install
 ```
 
 ## Run a server
-- `middleman`
+- `bundle exec middleman`
 
 ## Deploy
 1. [Sign into Netlify](https://www.netlify.com/)
