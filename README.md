@@ -9,8 +9,11 @@ A simple way to build static pages with a Rails feel.
 - [Sass](https://sass-lang.com)
 
 ## Init a new project
-1. Clone the repository 
-`git clone git@github.com:dmbf29/middleman-boilerplate.git NAME_OF_YOUR_PROJECT`
+1. Click the green `Use this Template` button and give your project a name
+2. In the new project, click on the green `Code` button to copy your SSH address
+3. Go to your Github folder on your Terminal
+4. Clone the repository like this
+`git clone git@github.com:dmbf29/NAME_OF_YOUR_PROJECT.git `
 2. Move into the directory `cd NAME_OF_YOUR_PROJECT`
 2. Remove template git `rm -rf .git`
 3. Start a new git repo `git init`
