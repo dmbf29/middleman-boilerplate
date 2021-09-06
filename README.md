@@ -33,7 +33,7 @@ Warnings == 👌, but Fatal errors == ⛔️<br>
 If you get a fatal error, you can try fixing it with `bundle update` and hope for the best 🤞
 
 ## Run a server
-`middleman`
+- `middleman`<br>
 or if that fails, try 
 - `bundle exec middleman`
 
