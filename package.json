@@ -1,9 +1,6 @@
 {
   "name": "middleman-webpack",
   "version": "1.0.0",
-  "description": "Middleman 4 + Webpack",
-  "repository": "https://github.com/tomrutgers/middleman-webpack",
-  "author": "Tom Rutgers <trutgers01@hotmail.com>",
   "license": "MIT",
   "browserslist": ">0.25%, not ie 11, not op_mini all, not dead",
   "devDependencies": {

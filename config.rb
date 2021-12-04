@@ -1,6 +1,8 @@
 # General config
 # http://localhost:4567/__middleman
 
+# For the metaman gem
+require "active_support/core_ext/hash/indifferent_access"
 # Import custom libraries and helpers
 Dir['./*/*.rb'].each { |file| load file }
 
@@ -41,3 +43,5 @@ configure :build do
   activate :minify_css
   activate :relative_assets
 end
+
+activate :metaman, host: 'https://domain.com'
